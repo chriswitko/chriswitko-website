@@ -35,6 +35,16 @@ module.exports = {
   // We are telling webpack to use "babel-loader" for .js and .jsx files
   module: {
     rules: [
+      // {
+      //   enforce: 'pre',
+      //   test: /\.(js|jsx)$/,
+      //   exclude: /node_modules/,
+      //   loader: 'eslint-loader',
+      //   options: {
+      //     failOnWarning: true,
+      //     failOnError: true
+      //   }
+      // },
       {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
