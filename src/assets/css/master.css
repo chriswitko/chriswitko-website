@@ -142,8 +142,8 @@ body {
     font-family: 'Hoefler Text A', 'Hoefler Text B';
     font-weight: 400;
     font-style: normal;
-    font-size: 14px;
-    line-height: 25.2px;
+    font-size: 16px;
+    line-height: 26.2px;
     -webkit-font-smoothing: antialiased;
     position: absolute;
     top: 0;
@@ -167,7 +167,7 @@ body:after {
 }
 a {
     text-decoration: none;
-    color: #1e1e20;
+    color: #0071de;
     -webkit-transition: color .4s ease-out;
     -moz-transition: color .4s ease-out;
     -ms-transition: color .4s ease-out;
@@ -186,8 +186,8 @@ h2 {
     line-height: 49px
 }
 h3 {
-    font-size: 14px;
-    line-height: 25.2px;
+    font-size: 16px;
+    line-height: 26.2px;
     padding: 84px 112px 0 112px
 }
 i {
@@ -196,15 +196,15 @@ i {
     font-style: italic
 }
 p {
-    font-size: 14px;
-    line-height: 25.2px;
+    font-size: 16px;
+    line-height: 26.2px;
     padding: 14px 112px 14px 112px
 }
 #twitter {
     padding: 14px 112px 14px 112px
 }
 #twitter>li {
-    padding: 0 0 28px 0
+    padding: 0 0 5px 0
 }
 #twitter>li>.status>a {
     text-decoration: underline
@@ -586,12 +586,42 @@ nav .context ul li:last-child {
     margin: 0 0 84px 0
 }
 .wrapper .container #one {
-    background-image: url(../img/IMG_3127.jpg);
+    background-image: url(../img/me/small.jpg);
     background-position: center center
 }
+@media only screen and (min-width: 300px) {
+    .wrapper .container #one {
+        background-image: url('../img/me/small.jpg'); 
+    }
+}
+@media only screen and (min-width: 960px) {
+    .wrapper .container #one {
+        background-image: url('../img/me/medium.jpg'); 
+    }
+}
+@media only screen and (min-width: 1600px) {
+    .wrapper .container #one {
+        background-image: url('../img/me/large.jpg'); 
+    }
+}
 .wrapper .container #two {
-    background-image: url(../img/IMG_2859.jpg);
+    background-image: url(../img/jerusalem/small.jpg);
     background-position: center center
+}
+@media only screen and (min-width: 300px) {
+    .wrapper .container #two {
+        background-image: url('../img/jerusalem/small.jpg'); 
+    }
+}
+@media only screen and (min-width: 960px) {
+    .wrapper .container #two {
+        background-image: url('../img/jerusalem/medium.jpg'); 
+    }
+}
+@media only screen and (min-width: 1600px) {
+    .wrapper .container #two {
+        background-image: url('../img/jerusalem/large.jpg'); 
+    }
 }
 .wrapper .container #three {
     background-image: url();
@@ -836,12 +866,12 @@ nav .context ul li:last-child {
     background: #f7f7f7
 }
 .lt-ie9 .wrapper .container #one {
-    filter: alphaImageLoader(src='../img/IMG_3127.jpg', sizingMethod='scale');
-    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/IMG_3127.jpg', sizingMethod='scale')"
+    filter: alphaImageLoader(src='../img/me/medium.jpg', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/me/medium.jpg', sizingMethod='scale')"
 }
 .lt-ie9 .wrapper .container #two {
-    filter: alphaImageLoader(src='../img/IMG_2859.jpg', sizingMethod='scale');
-    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/IMG_2859.jpg', sizingMethod='scale')"
+    filter: alphaImageLoader(src='../img/jerusalem/medium.jpg', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/jerusalem/medium.jpg', sizingMethod='scale')"
 }
 .lt-ie9 .wrapper .container #three {
     filter: alphaImageLoader(src='', sizingMethod='scale');

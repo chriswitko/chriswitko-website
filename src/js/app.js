@@ -63,7 +63,8 @@
     h = p.width(),
     f = 0,
     m = 500,
-    v = e.location.pathname;
+    v = e.location.pathname,
+    imgs;
   if (
     (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
       navigator.userAgent

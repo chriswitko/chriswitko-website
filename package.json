@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "webpack-dev-server",
     "build": "webpack",
+    "deploy": "cd dist && now && now alias",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Chris Witko",
